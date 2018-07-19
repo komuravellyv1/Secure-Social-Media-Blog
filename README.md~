@@ -53,5 +53,4 @@ CREATE TABLE `comments` (
   FOREIGN KEY (`postid`) REFERENCES `posts` (`postid`) ON DELETE CASCADE
 );
 
-deployed on Ubuntu Tomcat server- by simply copying files to the serverfolder.
 
